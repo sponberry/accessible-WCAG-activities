@@ -121,7 +121,10 @@
 						
 						<div class="border">
 						
-							<label for="title">Title (required)</label> 
+							<label for="title">
+								Title (required)
+								<span class="inline-alert alert-primary">Title is empty</span>
+							</label> 
 							<div class="form-group">
 								<select class="custom-select" id="title">
 									<option value="? string: ?"></option>
@@ -138,17 +141,26 @@
 								</select>					
 							</div>
 												
-							<label for="first">First Name (required)</label> 
+							<label for="first">
+								First Name (required)
+								<span class="inline-alert alert-primary">First Name is empty</span>
+							</label> 
 							<div class="form-group">
 								<input type="text" id="first" class="form-control" autocomplete="off">
 							</div>
 
-							<label for="last">Last Name (required 20 character maximum)</label> 
+							<label for="last">
+								Last Name (required 20 character maximum)
+								<span class="inline-alert alert-primary">Last Name is empty</span>
+							</label> 
 							<div class="form-group">
 								<input type="text" id="last" class="form-control" autocomplete="off" maxlength="40">
 							</div>
 							
-							<label for="email">Email Address (required)</label> 
+							<label for="email">
+								Email Address (required)
+								<span class="inline-alert alert-primary">Email Address is empty</span>
+							</label> 
 							<div class="form-group">
 								<input type="text" id="email" class="form-control" autocomplete="off">
 							</div>
